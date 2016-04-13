@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rt: <http://stad.gent/data/ns/gpdc/ruleTypes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+<https://stad.gent/data/ns/gpdc/ruleTypes/> a skos:ConceptScheme;
+																				skos:prefLabel "Regel types"@nl, "Rules types"@en.
+
+rt:Process a owl:Class, skos:Concept;
+					 skos:prefLabel "Process"@en, "Procedure"@nl;
+					 skos:inScheme <http://stad.gent/data/ns/gpdc/ruleTypes/>.
+
+rt:Exceptions a owl:Class, skos:Concept;
+					 skos:prefLabel "Exceptions"@en, "Uitzonderingen"@nl;
+					 skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.					 
+rt:Preconditions a owl:Class, skos:Concept;
+					 skos:prefLabel "Preconditions"@en, "Voorwaarden"@nl;
+					 skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.					 

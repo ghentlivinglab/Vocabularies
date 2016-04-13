@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix it: <http://stad.gent/data/ns/gpdc/inputTypes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rt: <https://stad.gent/data/ns/gpdc/inputTypes/>.
+<https://stad.gent/data/ns/gpdc/inputTypes/> a skos:ConceptScheme;
+																				skos:prefLabel "Input types"@nl, "Invoer types"@en.
+
+rt:Fee a owl:Class, skos:Concept;
+					 skos:prefLabel "Fee"@en, "Bedrag"@nl;
+					 skos:inScheme <https://stad.gent/data/ns/gpdc/inputTypes/>.
+
+rt:Bring-a-long a owl:Class, skos:Concept;
+					 skos:prefLabel "What to bring along"@en, "Wat meebrengen"@nl;
+					 skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.					 

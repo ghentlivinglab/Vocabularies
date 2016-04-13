@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gentthema: <http://stad.gent/id/ns/themas/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://stad.gent/id/ns/themas/> a skos:ConceptScheme; 
+																	 skos:prefLabel "Thema's Stad Gent"@nl.
+gentthema:burgerzaken a owl:Class;
+											a skos:Concept;
+											skos:prefLabel "Burgerzaken"@nl;
+											rdfs:comment "Documenten en administratieve zaken die belangrijk zijn in het leven van elke burger."@nl;
+											skos:inScheme <http://stad.gent/id/ns/themas/>.
+gentthema:cultuur-sport-vrije-tijd  a owl:Class; 
+																		a skos:Concept ;
+																		skos:prefLabel "Cultuur, Sport & Vrije Tijd"@nl; 
+																		rdfs:comment "Ook bibliotheek, jeugd, kunst, erfgoed, evenementen, toerisme en media."@nl;
+																		skos:inScheme <http://stad.gent/data/ns/themas/>.
+
+gentthema:mobiliteit-openbare-werken a owl:Class; 
+													 					 a skos:Concept; 
+																		 skos:prefLabel "Mobiliteit & openbare werken"@nl;															
+																		 rdfs:comment "Ontdek hier de infrastructuur- en mobiliteitsprojecten in uw buurt en onze plannen om het in de toekomst nog beter te maken."@nl; 
+																		 skos:inScheme <http://stad.gent/id/ns/themas/>.
+
+gentthema:onderwijs-kinderopvang a owl:Class; 
+																 a skos:Concept; 
+																 skos:prefLabel "Onderwijs & kinderopvang"@nl; 
+																 rdfs:comment "Gent is de grootste onderwijsstad van Vlaanderen. Met een ruim aanbod voor kleuters, kinderen, tieners en studenten."@nl; 
+																 skos:inScheme <http://stad.gent/id/ns/themas/>. 
+gentthema:werken-ondernemen rdf:type owl:Class; 
+														a skos:Concept; 
+														skos:prefLabel "Werken & Ondernemen"@nl; 
+														rdfs:comment "Wilt u werken of stage lopen in Gent? Of hebt u vragen over het ondernemerschap?"@nl; 
+														skos:inScheme <http://stad.gent/id/ns/themas/>. 
+
+gentthema:natuur-milieu a skos:Concept; 
+												skos:prefLabel "Natuur & Milieu"@nl; 
+												rdfs:comment "Samen maken we van Gent een groene en duurzame stad"@nl; 
+												skos:inScheme <http://stad.gent/id/ns/themas/>.
+
+gentthema:wonen-bouwen a skos:Concept, owl:Class; 
+											 skos:prefLabel "Wonen & (ver)bouwen"@nl; 
+											 rdfs:comment "Kwaliteitsvol, energiezuinig en betaalbaar wonen in Gent, stedenbouwkundige vergunning, verkavelingsvergunning"@nl; 
+											 skos:inScheme <http://stad.gent/id/ns/themas/>.
+
+gentthema:welzijn-gezondheid a skos:Concept, owl:Class; 
+															skos:prefLabel "Welzijn & Gezondheid"@nl; 
+															rdfs:comment "Wegwijs in gezondheids- en welzijnszorg, OCMW, armoede, integratie en migratie, senioren, personen met een beperking, vrijwilligerswerk, Digitaal.Talent@Gent"@nl;
+															skos:inScheme <http://stad.gent/id/ns/themas/>.
+
+gentthema:stad-beleid-bestuur a skos:Concept, owl:Class; 
+															skos:prefLabel "Stad, beleid en bestuur"@nl; 
+															rdfs:comment  "alles over de troeven van de Stad Gent, op welke manier het bestuur de stad doet leven en hoe u zelf uw steentje kan bijdragen."@nl;
+															skos:inScheme <http://stad.gent/id/ns/themas/>.

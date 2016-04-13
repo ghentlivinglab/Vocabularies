@@ -7,10 +7,10 @@
 <http://stad.gent/data/ns/gpdc/diensten/> a adms:Asset.
 
 diensten:Europese-overheid a foaf:Agent;
-					foaf:name "Europese overheid".
+          foaf:name "Europese overheid".
 
 diensten:Federale-overheid a foaf:Agent;
-					foaf:name "Federale overheid".
+          foaf:name "Federale overheid".
 
 diensten:Vlaamse-overheid a foaf:Agent;
-					foaf:name "Vlaamse overheid".
+          foaf:name "Vlaamse overheid".

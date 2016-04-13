@@ -4,15 +4,15 @@
 @prefix rt: <http://stad.gent/data/ns/gpdc/ruleTypes/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 <https://stad.gent/data/ns/gpdc/ruleTypes/> a skos:ConceptScheme;
-																				skos:prefLabel "Regel types"@nl, "Rules types"@en.
+                                        skos:prefLabel "Regel types"@nl, "Rules types"@en.
 
 rt:Process a owl:Class, skos:Concept;
-					 skos:prefLabel "Process"@en, "Procedure"@nl;
-					 skos:inScheme <http://stad.gent/data/ns/gpdc/ruleTypes/>.
+           skos:prefLabel "Process"@en, "Procedure"@nl;
+           skos:inScheme <http://stad.gent/data/ns/gpdc/ruleTypes/>.
 
 rt:Exceptions a owl:Class, skos:Concept;
-					 skos:prefLabel "Exceptions"@en, "Uitzonderingen"@nl;
-					 skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.					 
+           skos:prefLabel "Exceptions"@en, "Uitzonderingen"@nl;
+           skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.          
 rt:Preconditions a owl:Class, skos:Concept;
-					 skos:prefLabel "Preconditions"@en, "Voorwaarden"@nl;
-					 skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.					 
+           skos:prefLabel "Preconditions"@en, "Voorwaarden"@nl;
+           skos:inScheme <https://stad.gent/data/ns/gpdc/ruleTypes/>.          

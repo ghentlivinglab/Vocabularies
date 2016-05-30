@@ -1,24 +1,24 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dg: <http://stad.gent/data/ns/gpdc/doelgroepen/> .
+@prefix dg: <http://stad.gent/id/ns/gpdc/doelgroepen/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-<http://stad.gent/data/ns/gpdc/doelgroepen/> a skos:ConceptScheme;
+<http://stad.gent/id/ns/gpdc/doelgroepen/> a skos:ConceptScheme;
                                         skos:prefLabel "Doelgroepen"@nl.
 
 dg:burger a owl:Class;
           a skos:Concept;
-          skos:inScheme <http://stad.gent/data/ns/gpdc/doelgroepen/>;
+          skos:inScheme <http://stad.gent/id/ns/gpdc/doelgroepen/>;
           skos:prefLabel "Burger"@nl.
 dg:onderneming a owl:Class;
           a skos:Concept;
-          skos:inScheme <http://stad.gent/data/ns/gpdc/doelgroepen/>;
+          skos:inScheme <http://stad.gent/id/ns/gpdc/doelgroepen/>;
           skos:prefLabel "Onderneming"@nl.
 dg:vereniging a owl:Class;
           a skos:Concept;
-          skos:inScheme <http://stad.gent/data/ns/gpdc/doelgroepen/>;
+          skos:inScheme <http://stad.gent/id/ns/gpdc/doelgroepen/>;
           skos:prefLabel "Vereniging"@nl.
 dg:stadsmedewerkers a owl:Class;
           a skos:Concept;
-          skos:inScheme <http://stad.gent/data/ns/gpdc/doelgroepen/>;
+          skos:inScheme <http://stad.gent/id/ns/gpdc/doelgroepen/>;
           skos:prefLabel "Stadsmedewerkers"@nl.

@@ -1,0 +1,89 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bl: <http://stad.gent/id/ns/bib/leners/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+<http://stad.gent/id/ns/bib/leners/> a skos:ConceptScheme;
+																		skos:prefLabel "Leners categorieen"@nl;
+																		dcterms:created "2016-06-02";
+																		dcterms:modified "2016-06-02".
+
+bl:AD a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Adolescenten"@nl;
+			skos:notation "AD".
+bl:BAH a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Bibliotheek aan huis"@nl;
+			skos:definition "Gebruikt wanneer een vrijwilliger met boeken bij iemand thuis gaat. De kaart staat op naam van de vrijwilliger en de echte bibgebruiker thuis.";
+			skos:editorialNote: "niet gebruikt in de huidige datasets";
+			skos:notation "BAH.
+bl:BOB skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Boek op bezoek"@nl;
+			skos:definition "Gebruikt wanneer een vrijwilliger gaat voorlezen.  De kaart staat op naam van de voorlezer."@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets"@nl;
+			skos:notation "BOB".
+bl:CB skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Boek op bezoek"@nl;
+			skos:definition "Gebruikt wanneer een vrijwilliger gaat voorlezen.  De kaart staat op naam van de voorlezer."@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets, vroegere benaming voor IBL"@nl;
+			owl:deprecated true;
+			vs:status "deprecated".
+			skos:notation "CB".
+bl:CO a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Collectieve lener"@nl;
+			skos:definition "Leners die meer exemplaren mogen ontlenen."@nl
+			skos:notation "CO".
+bl:DI a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Dienst"@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets";
+			skos:notation "DI".
+bl:DPE a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Personeel dienstbibliotheek"@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets";
+			skos:notation "DPE".
+bl:EX a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Externe leners"@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets";
+			skos:notation "EX".
+bl:FI a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Filialen"@nl;
+			skos:notation "FI".
+bl:IBL a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "InterBibliothecair leenverkeer"@nl;
+			skos:notation "IBL".
+bl:KI a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Kinderen"@nl;
+			skos:notation "KI".
+bl:KL a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Klas"@nl;
+			skos:definition "Ontlening in de bib door een klas"@nl;
+			skos:notation "KL".
+bl:PE a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Persooneel"@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets";
+			skos:notation "PE".
+bl:SCH skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "School"@nl;
+			skos:editorialNote: "niet gebruikt in de huidige datasets, vroegere benaming voor klas"@nl;
+			owl:deprecated true;
+			vs:status "deprecated".
+			skos:notation "SCH".
+bl:VO a skos:Concept;
+			skos:inScheme <http://stad.gent/id/ns/bib/leners/>;
+			skos:prefLabel "Volwassen"@nl;
+			skos:notation "VO".
